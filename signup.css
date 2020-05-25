@@ -1,0 +1,43 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  color: white;
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+    background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+form{
+  padding: 2em,10em;
+  width: 20em;
+  height: 150px;
+}
+form:hover{
+  padding: 2em,10em;
+  width: 20em;
+  height: 150px;
+  text-decoration-color: grey;
+}
+   
+button {
+  color: bisque;
+  background-color: rgb(59, 59, 163);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 60px 2px;
+  border-radius: 25px;
+}
